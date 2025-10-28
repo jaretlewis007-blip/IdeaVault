@@ -1,6 +1,6 @@
 "use client";
 import { useEffect } from "react";
-import { db } from "@/firebase/config";
+import { db } from "../../firebase/config";
 import { collection, addDoc } from "firebase/firestore";
 
 export default function TestPage() {
